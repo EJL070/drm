@@ -1,0 +1,138 @@
+body{
+    background-color: hsla(0,95%,98%,1);
+   
+}
+header{
+    grid:100% / max-content 1fr;
+    place-content: center;
+    place-items:end;
+    height:90px;
+    padding-left:2%;
+    box-sizing: border-box;
+    column-gap:40px;
+    padding-right:3%;
+}
+main{
+    height:100%;
+    width:100%;
+    grid:auto / auto;
+    place-content: center;
+    place-items: center;
+}
+.partners{
+
+    font-family:Akshar;
+    font-size: 2rem;
+}
+.brand{
+    display:grid;
+    grid:100% /50px max-content;
+    font-family:'Bebas Neue';
+    font-size:4rem;
+    height:100%;
+    place-items: center;
+}
+h1,menu,p,a{
+    height:100%;
+    padding:0;
+    margin:0;
+}
+.brandName{
+    height:100%;
+    display:flex;
+    place-items: center;
+
+    flex-direction: row;
+    margin:0;
+    padding:0;
+}
+.menuRow{
+    height:100%;
+    padding:0;
+    margin:0;
+    display:grid;
+    grid:100% / auto-flow max-content;
+    column-gap:30px;
+    place-items:center;
+    font-family: Akshar;
+    font-size:1.5rem;
+
+}
+.partners{
+    height:100%;
+    width:100%;
+
+}
+.publicaties{
+    height:100%;
+    width:90%;
+   
+    place-self: center;
+    place-content: start;
+    grid:auto-flow max-content / repeat(auto-fill,400px);
+    gap:10px;
+    place-items:start;
+    padding-top:5%;
+}
+.article{
+    display:grid;
+    width:400px;
+    height:300px;
+    grid:repeat(3,max-content) / 100%;
+    /* background:black; */
+    font-family:Lexend;
+    place-items: start;
+    place-content: start;
+    place-self: center;
+    box-shadow:1px 2px 2px 1px grey;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    padding:5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.article a{
+    font-size:2rem;
+    background:black;
+    color:white;
+    width:100%;
+}
+.article i{
+    background:black;
+    width:100%;
+    color:white;
+}
+.financier{
+    font-size:2rem;
+    font-family: Lexend;
+}
+
+.home{
+    width:100%;
+    height:100%;
+    display:grid;
+    grid:repeat(3,33.3%) / repeat(3,33.3%);
+    place-content: center;
+    place-items: center;
+   
+  
+}
+
+footer{
+    height:0;
+}
+.mainItem{
+    place-self: center;
+    font-size:4rem;
+    background:hsla(0,100%,100%,0.8);
+    filter:hue-rotate(90deg);
+    mix-blend-mode: screen;
+    color:black;
+    width:100%;
+    height:100%;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    font-family: 'Bebas Neue';
+}
