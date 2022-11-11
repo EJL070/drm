@@ -1,4 +1,4 @@
-window.onload = () =>{
+
 if(document.head.children.length < 1)
 {document.head.innerHTML += `<title></title>
     <meta charset="UTF-8">
@@ -140,4 +140,3 @@ const page = {
 };
 const current = page[window.location.href.split("/").slice(-1)[0]];
 current ? current() : "";
-}
